@@ -1,0 +1,84 @@
+h1, h2,h3{
+	
+    font-family: "Courier New", Courier, monospace;
+    color:purple ;
+    /*font-family: Tahoma, Geneva, sans-serif;*/
+    /*font-family: "Times New Roman", Times, serif;*/
+    /*font-family: "Oswald", Helvetica, Arial, sans-serif!important;*/
+    /*@font-font-family: "Open Sans, Pacifico, Oswald";*/
+    /*@font-font-family: "Oswald";*/
+    /*@font-font-family: "Josefin Slab";*/
+      /*@font-font-family: "Blackadder ITC";*/
+    /*@font-font-family: 'Open Sans', sans-serif;*/
+}
+
+@media(max-width: 480px) {
+  h1 {
+    font-size: 15pt;
+  }
+  p{
+    font-size: 12px;
+  }
+  ul
+  {
+    font-size: 12px; 
+  }
+  .fnt
+  {
+    font-size: 14px;  
+  }
+}
+/*  .navbar-fixed-top  {
+    padding-right: 0;
+    margin-top: 50;
+    padding-left: 0;
+  }*/
+
+.navbar {
+  margin-top: 3px;
+}
+
+/*ul {
+    display: inline;
+}*/
+
+/*.img-rounded {
+  margin-top: 60px;
+}*/
+
+/*.img-thumbnail {
+  margin-top: 130px;
+}*/
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  	margin-top: 5px;
+	background:#000;
+}
+/*
+.col-xs {
+	margin-top: 10px;
+	background:#000;
+	/*min-height: 25px;	*/
+}
+/*.col-xs-5, .col-xs-4, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-6 {
+	margin-top: 10px;
+	background:#000;
+	/*min-height: 25px;		*/
+}
+/**/
+
+.btn-primary {
+  color: purple;
+  background-color: purple;
+  border-color: purple;
+}
+
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #8064A2;
+    border-color: #8064A2;
+}
